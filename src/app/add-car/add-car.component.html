@@ -1,0 +1,75 @@
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Cars Details</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form [formGroup]="formValue">
+                    <div class="mb-3">
+                        <label for="id" class="form-label">Car ID</label>
+                        <input type="text" formControlName="id" class="form-control" id="id">
+                    </div>
+                    <div class="mb-3">
+                        <label for="description" class="form-label">Description</label>
+                        <input type="text" formControlName="description" class="form-control" id="description">
+                    </div>
+                    <div class="mb-3">
+                        <label for="brand" class="form-label">Brand</label>
+                        <input type="text" formControlName="brand" class="form-control" id="brand">
+                    </div>
+                    <div class="mb-3">
+                        <label for="address" class="form-label">Address</label>
+                        <input type="text" formControlName="address" class="form-control" id="address">
+                    </div>
+                    <div class="mb-3">
+                        <label for="model" class="form-label">Model</label>
+                        <input type="text" formControlName="model" class="form-control" id="model">
+                    </div>
+                    <div class="mb-3">
+                        <label for="modelYear" class="form-label">Model year</label>
+                        <input type="text" formControlName="modelYear" class="form-control" id="modelYear">
+                    </div>
+                    <div class="mb-3">
+                        <label for="issuance" class="form-label">Issuance</label>
+                        <input type="text" formControlName="issuance" class="form-control" id="issuance">
+                    </div>
+                    <div class="mb-3">
+                        <label for="mileage" class="form-label">Mileage</label>
+                        <input type="text" formControlName="mileage" class="form-control" id="mileage">
+                    </div>
+                    <div class="mb-3">
+                        <label for="fuel" class="form-label">Fuel</label>
+                        <input type="text" formControlName="fuel" class="form-control" id="fuel">
+                    </div>
+                    <div class="mb-3">
+                        <label for="color" class="form-label">Color</label>
+                        <input type="text" formControlName="color" class="form-control" id="color">
+                    </div>
+                    <div class="mb-3">
+                        <label for="numberDoors" class="form-label">Number of doors</label>
+                        <input type="text" formControlName="numberDoors" class="form-control" id="numberDoors">
+                    </div>
+                    <div class="mb-3">
+                        <label for="horsPower" class="form-label">Hors power</label>
+                        <input type="text" formControlName="horsPower" class="form-control" id="horsPower">
+                    </div>
+                    <div class="mb-3">
+                        <label for="price" class="form-label">Price</label>
+                        <input type="text" formControlName="price" class="form-control" id="price">
+                    </div>
+                    <div class="mb-3">
+                        <label for="picture" class="form-label">Picture</label>
+                        <input type="text" formControlName="picture" class="form-control" id="picture">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" id="cancel" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" (click)="addCarDetails()" class="btn btn-primary">Add</button>
+            </div>
+        </div>
+    </div>
+</div>

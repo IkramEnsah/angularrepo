@@ -1,0 +1,56 @@
+<div class="container">
+
+    <table class="table table-striped" cellpadding="5" cellspacing="0" width="100%">
+
+        <thead valign="center">
+            <tr>
+                <th scope="col">
+                </th>
+                <th scope="col" class="table-light">Address</th>
+                <th scope="col" class="table-light">Year</th>
+                <th scope="col" class="table-light">Mileage</th>
+                <th scope="col" class="table-light">Fuel</th>
+                <th scope="col" class="table-light">Horse Power</th>
+                <th scope="col" class="table-light">Price</th>
+                <th scope="col" class="table-light">Actions</th>
+            </tr>
+        </thead>
+
+        <tbody class="table-secondary">
+            <tr *ngFor="let carIterator of myArray">
+                <td width="200" height="200">
+                    <table cellpadding="5" cellspacing="0" width="100%">
+                        <tr>
+                            <td valign="center"><img src=carIterator.picture width="200" height="200"
+                                    alt="carIterator.picture" /></td>
+                            <td valign="center">
+                                <p width="500" height="500">
+                                    {{carIterator.description}}
+                                </p>
+                            </td>
+
+                        </tr>
+                    </table>
+
+                </td>
+                <td>{{carIterator.address}}</td>
+                <td>{{carIterator.modelYear}}</td>
+                <td>{{carIterator.mileage}}</td>
+                <td>{{carIterator.fuel}}</td>
+                <td>{{carIterator.horsPower}}</td>
+                <td>{{carIterator.price}}</td>
+                <td>
+
+                    <div class="btn-group" role="group" aria-label="Basic outlined example">
+                        <button class="btn btn-outline-primary" type="button" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">Edit</button>
+                        <p> </p>
+                        <p> </p>
+                        <button (click)="deleteCar(carIterator.id)" class="btn btn-danger" mx-3>Delete</button>
+                    </div>
+
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

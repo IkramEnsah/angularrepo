@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { NgModule } from '@angular/core';
+import { FormsModule, ReactiveFormsModule } from "@angular/forms";
+
 
 @Component({
   selector: 'app-root',
@@ -6,5 +9,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'frontendcarsmanagerv2';
+  title = 'Cars manager';
 }

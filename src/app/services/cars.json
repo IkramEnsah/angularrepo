@@ -1,0 +1,98 @@
+{
+  "cars": [
+    {
+      "id": 2,
+      "description": "Audi Q5 40TDI quattro S line - Virtual cockpit - Garantie 24 mois",
+      "address": "Strasbourg",
+      "brand": "Audi",
+      "model": "Q5",
+      "modelYear": 2019,
+      "issuance": "01/02/2019",
+      "mileage": 55510,
+      "fuel": "diesel",
+      "color": "blue",
+      "numbers_doors": 5,
+      "horsPower": 190,
+      "price": 40990,
+      "pictures": [
+        "https://img.leboncoin.fr/api/v1/lbcpb1/images/fb/07/12/fb0712883967c8c0eb52db9dab61f729d54c37bc.jpg?rule=ad-large"
+      ],
+      "sold": false
+    },
+    {
+      "id": 3,
+      "description": "Audi TT Roadster S line 1.8 TFSI S tronic - Cockpit virtuel - LED - Garantie",
+      "address": "Strasbourg",
+      "brand": "Audi",
+      "model": "TT",
+      "modelYear": 2017,
+      "issuance": "01/02/2019",
+      "mileage": 36104,
+      "fuel": "petrol",
+      "color": "black",
+      "numbers_doors": 2,
+      "horsPower": 179,
+      "pictures": [
+        "https://img.leboncoin.fr/api/v1/lbcpb1/images/0b/96/bd/0b96bdd615e3bd7ae31ae6d6c65aea6d03675af6.jpg?rule=ad-large"
+      ],
+      "sold": false
+    },
+    {
+      "id": 4,
+      "description": "Volkswagen T-Roc 1.5 TSI DSG United",
+      "address": "Marseille",
+      "brand": "Volkswagen",
+      "model": "T-Roc",
+      "modelYear": 2020,
+      "issuance": "01/11/2020",
+      "mileage": 15000,
+      "fuel": "petrol",
+      "color": "blue",
+      "numbers_doors": 5,
+      "horsPower": 150,
+      "price": 27999,
+      "pictures": [
+        "https://img.leboncoin.fr/api/v1/lbcpb1/images/31/30/f4/3130f484a61e6ec525173e2aa63a23908ca83c55.jpg?rule=ad-large"
+      ],
+      "sold": true
+    },
+    {
+      "id": 5,
+      "description": "Mercedes-Benz SLK 250 Sport Panorama",
+      "address": "Paris",
+      "brand": "Mercedes",
+      "model": "SLK",
+      "modelYear": 2015,
+      "issuance": "01/02/2015",
+      "mileage": 40520,
+      "fuel": "petrol",
+      "color": "grey",
+      "numbers_doors": 3,
+      "horsePower": 204,
+      "price": 33300,
+      "pictures": [
+        "https://img.leboncoin.fr/api/v1/lbcpb1/images/db/dd/8c/dbdd8c040a6d2c5b8cae00b7b6a49a3761175772.jpg?rule=ad-large"
+      ],
+      "sold": false
+    },
+    {
+      "id": 6,
+      "description": "Volvo V90 D4 Geartronic Inscription Pano + Harman Kardon",
+      "address": "Strasbourg",
+      "brand": "Volvo",
+      "model": "V90",
+      "modelYear": 2020,
+      "issuance": "01/03/2O20",
+      "mileage": 18590,
+      "fuel": "diesel",
+      "color": "black",
+      "numbers_doors": 5,
+      "horsPower": 190,
+      "price": 38290,
+      "pictures": [
+        "https://img.leboncoin.fr/api/v1/lbcpb1/images/d2/63/6e/d2636e10bc383a7e3594f647a7a48cb4afb85022.jpg?rule=ad-large"
+      ],
+      "sold": true
+    }
+  ]
+}
